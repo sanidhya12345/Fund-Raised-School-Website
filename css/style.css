@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-sarief;
+}
+body {
+    background-color: #f4f4f4;
+}
+/*Navigation-bar*/
+header {
+  display: flex;
+  height: 70px;
+  background-color: #ff8243;
+}
+
+.logo {
+  color: white;
+  margin-top: 7px;
+  margin-left: 10px;
+  padding: 7px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin-left: 450px;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+a {
+}
+nav ul li {
+  padding: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  /*   padding-left: 10px;
+  padding-right: 10px; */
+  padding: 10px;
+}
+/* a .active: active {
+  border-bottom: 2px solid white;
+} */
+
+nav ul li a:hover {
+  /*   background-color: #E26A2C; */
+  background-color: #e26a2c;
+}
+
+.sign-in {
+  background: red;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/*Banner-Section*/
+.banner {
+  display: flex;
+  /* border: 1px solid black; */
+  /* background: #eaa039;
+  background: -webkit-linear-gradient(right, #eaa039, #db9744);
+  background: -moz-linear-gradient(right, #eaa039, #db9744);
+  background: linear-gradient(to left, #eaa039, #db9744);
+  margin-top: 10px; */
+  /* background-color: #f4f4f4; */
+  margin-top: 10px;
+}
+.banner-text {
+  /* border: 1px solid blue; */
+  margin: 10px;
+  padding: 25px;
+  line-height: 40px;
+  flex: 2;
+}
+
+.banner-text h1 {
+    color: purple;
+    font-size: 50px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.banner-text p{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.banner img {
+  /* border: 2px solid red; */
+  border-radius: 50%;
+  margin-left: 150px;
+  margin-right: 20px;
+}
+
+.temp {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: aqua;
+}
+
+.text-1 {
+    display:flex;
+}
+
+.text-1 h3 {
+    /* border: 1px solid black; */
+    padding-bottom:5px;
+    font-size: 17px;
+}
+.material-icons {
+    color:red;
+    padding: 10px;
+}
+
+.get-started-btn {
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px
+}
+
+.get-started-btn a {
+    text-decoration: none;
+    /* border: 1px solid black; */
+    padding: 10px;
+    background-color:#F4A442;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.get-started-btn a:hover {
+    background-color: #e26a2c;
+}

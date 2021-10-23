@@ -4,35 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Home Page</title>
+    <title>Fundraiser's Website</title>
   </head>
   <body>
-    <div id="container">
-      <div id="header">
-        <input type="checkbox" id="chk" />
-        <label for="chk" class="show-btn">
-          <i class="fa fa-bars"></i>
-        </label>
-        <label class="logo">MarS</label>
-        <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Browse Fundraisers</a></li>
-            <li><a href="#">Browse Schools</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Sign In</a></li>
-            <li><a href="#">Sign Up</a></li>
-            <label for="chk" class="hide-btn">
-              <i class="fa fa-times"></i>
-            </label>
-          </ul>
+    <!--Navigation-bar-->
+    <header>
+      <div class="logo">Fundraisers.</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About-Us</a></li>
+          <li><a href="#">Fundraisers</a></li>
+          <li><a href="#">Schools</a></li>
+          <li><a class="sign-in" href="#">Sign-In/Sign-Up</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Banner-Section-->
+    <div class="banner">
+      <div class="banner-text">
+        <h2>Empowering children through</h2>
+        <h1>Education</h1>
+        <p>
+          Education charities provide other educational services and
+          opportunities that help make Schools more effective and more
+          accessible to students of all backgrounds.
+        </p>
+       <div class="temp">
+        <div class="text-1">
+          <span class="material-icons"> task_alt </span>
+          <h3>Funds go directly to charity</h3>
+        </div>
+        <div class="text-1">
+          <span class="material-icons"> task_alt </span>
+          <h3>No goal requirements</h3>
+        </div>
+        <div class="text-1">
+          <span class="material-icons"> task_alt </span>
+          <h3>No fundraising deadlines</h3>
+        </div>
+        <div class="text-1">
+          <span class="material-icons"> task_alt </span>
+          <h3>Best customer support services</h3>
+        </div>
+       </div>
+       <div class="get-started-btn"><a href="#">Get Started</a></div>
       </div>
-      <div class="banner">
-      </div>
+      <img src="./assets/poorchild1.jpeg" alt="" />
     </div>
   </body>
 </html>
