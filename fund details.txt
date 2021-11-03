@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylee.css" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        background-color: gray;
+      }
+
+      .card {
+        width: 98%;
+        height: 10vh;
+        background-color: skyblue;
+        margin: 10px auto;
+        border-radius: 1vh;
+        padding: 5px;
+        position: relative;
+        border: 3px solid whitesmoke;
+        box-shadow: black 5px 5px 5px;
+      }
+      .account_namedetail {
+        position: absolute;
+        left: 1%;
+        top: 30%;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: red;
+      }
+      .account_name {
+        position: absolute;
+        left: 6%;
+        top: 30%;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: green;
+      }
+      .account_nodetail {
+        position: absolute;
+        left: 41%;
+        top: 30%;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: red;
+      }
+      .account_no {
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: green;
+      }
+      .money {
+        position: absolute;
+        right: 1%;
+        top: 30%;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: green;
+      }
+      .money_detail {
+        position: absolute;
+        right: 7%;
+        top: 30%;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">Navebar</div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+    <div class="card">
+      <p class="account_namedetail">Name-</p>
+      <p class="account_name">abbbbbbb</p>
+      <p class="account_nodetail">Account No.-</p>
+      <p class="account_no">1231242342</p>
+      <p class="money_detail">Credited-</p>
+      <p class="money">10000$</p>
+    </div>
+  </body>
+</html>
