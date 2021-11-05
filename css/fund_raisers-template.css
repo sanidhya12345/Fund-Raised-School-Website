@@ -26,3 +26,7 @@ h1 {
   margin-right: 10px;
   float: left;
 }
+
+.card {
+  box-shadow: blue 4px 4px 5px;
+}
