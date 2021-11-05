@@ -68,7 +68,7 @@ nav ul li a:hover {
     display: flex;
     background-color: white;
     margin-top: 10px;
-    background-image: url(/assets/poorchild1.jpeg);
+    background-image: url(../assets/poorchild1.jpeg);
     background-size: cover;
     background-position: center;
     text-align: center;
