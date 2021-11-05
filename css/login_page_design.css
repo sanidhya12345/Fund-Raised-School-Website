@@ -12,10 +12,10 @@ body {
 }
 .container {
   width: 73%;
-  height: 700px;
+  height: 640px;
   background-image: url("../assets/container_image.jpg");
   margin: auto;
-  margin-top: 100px;
+  margin-top: 60px;
   padding: 10px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,6 +57,13 @@ label {
   text-transform: uppercase;
   transition: transform 80ms ease-in;
   margin-top: 20px;
+  box-shadow: black 4px 4px 3px;
+}
+.login:hover {
+  color: black;
+  background-color: blanchedalmond;
+  box-shadow: black 2px 2px 1px;
+  border: 1px solid rgb(218, 193, 155);
 }
 h1 {
   text-align: center;
@@ -90,8 +97,12 @@ h5 {
   height: 680px;
 }
 .div-image {
-  height: 680px;
+  height: 620px;
   float: right;
   width: 55%;
   background-image: url("../assets/div_image.jpg");
+}
+
+.createAccount:hover {
+  color: red;
 }
