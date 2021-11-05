@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-sarief;
+}
+body {
+    background-color: #f4f4f4;
+}
+/*Navigation-bar*/
+header {
+  display: flex;
+  height: 70px;  
+  background-color: #ff8243; 
+  /* position: fixed; */
+}
+
+.logo {
+  color: white;
+  margin-top: 7px;
+  margin-left: 25px;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin-left: 350px;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 10px;
+  /* border: 1px solid red; */
+}
+nav ul li a i{
+  margin-right: 10px;
+}
+nav ul li {
+  padding: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  /*   padding-left: 10px;
+  padding-right: 10px; */
+  padding: 10px;
+}
+/* a .active: active {
+  border-bottom: 2px solid white;
+} */
+
+nav ul li a:hover {
+  /*   background-color: #E26A2C; */
+  background-color: #e26a2c;
+}
+
+/*Banner-Section*/
+.banner {
+  display: flex;
+  border: 1px solid black;  
+  background-color: white;
+  margin-top: 10px;
+  background-image: url(/assets/poorchild1.jpeg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.banner-text {
+  /* border: 1px solid blue; */
+  margin: 10px;
+  padding: 25px;
+  line-height: 40px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+.banner-text h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.banner-text p{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+.temp {
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 15px;
+    background-color:black;
+    opacity: 0.75;
+}
+
+.text-1 {
+    display:flex;
+}
+
+.text-1 h3 {
+     /* border: 1px solid black;  */
+    padding-bottom:5px;
+    font-size: 17px;
+  
+}
+.material-icons {
+    color:red;
+    padding: 10px;
+}
+
+.get-started-btn {
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.get-started-btn a {
+    text-decoration: none;
+    /* border: 1px solid black; */
+    padding: 10px;
+    background-color:#F4A442;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px  black;
+}
+
+.get-started-btn a:hover {
+    background-color: #e26a2c;
+}
+
+
+
+
+
