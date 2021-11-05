@@ -1,0 +1,28 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-sarief;
+}
+body {
+  background-image: url("../assets/back_funraisers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Lato", sans-sarief;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: aliceblue;
+}
+#myText {
+  width: 100%;
+  height: 830px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  float: left;
+}
