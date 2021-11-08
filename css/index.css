@@ -1,183 +1,122 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
 }
 
-body {
-  font-family: "Lato", sans-serif;
-  line-height: 1.4;
+li {
+    list-style: none;
 }
 
-header {
+a {
+    text-decoration: none;
+}
+
+/*Header and nav-bar styles*/
+.header{
   height: 70px;
   background-color: #ff8243;
-  justify-content: center;
-  text-align: center;
-  font-size: 40px;
-  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+/*Hamburger styles*/
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out; /*for fire-fox*/
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+/*Basic styles*/
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
+.nav-link{
+  font-size: 1.2rem;
   font-weight: bold;
-}
-
-.logo {
-  padding: 5px;
-}
-
-/* MENU STYLES */
-.menu-wrap {
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.menu-wrap .toggler {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  cursor: pointer;
-  width: 50px;
-  height: 50px;
-  opacity: 0;
-}
-
-.menu-wrap .hamburger {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 60px;
-  height: 60px;
-  padding: 1rem;
-  background: #F4A442;
+  color: white;
   border-radius: 10px;
-  margin-top: 5px;
-  margin-left: 7px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Hamburger Line */
-.menu-wrap .hamburger > div {
-  position: relative;
-  flex: none;
-  width: 100%;
-  height: 2px;
-  background: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.4s ease;
-}
-
-/* Hamburger Lines - Top & Bottom */
-.menu-wrap .hamburger > div::before,
-.menu-wrap .hamburger > div::after {
-  content: '';
-  position: absolute;
-  z-index: 1;
-  top: -10px;
-  width: 100%;
-  height: 2px;
-  background: inherit;
-}
-
-/* Moves Line Down */
-.menu-wrap .hamburger > div::after {
-  top: 10px;
-}
-
-/* Toggler Animation */
-.menu-wrap .toggler:checked + .hamburger > div {
-  transform: rotate(135deg);
-}
-
-/* Turns Lines Into X */
-.menu-wrap .toggler:checked + .hamburger > div:before,
-.menu-wrap .toggler:checked + .hamburger > div:after {
-  top: 0;
-  transform: rotate(90deg);
-}
-
-/* Rotate On Hover When Checked */
-.menu-wrap .toggler:checked:hover + .hamburger > div {
-  transform: rotate(225deg);
-}
-
-/* Show Menu */
-.menu-wrap .toggler:checked ~ .menu {
-  visibility: visible;
-}
-
-.menu-wrap .toggler:checked ~ .menu > div {
-  transform: scale(1);
-  transition-duration:  0.75s;
-}
-
-.menu-wrap .toggler:checked ~ .menu > div > div {
-  opacity: 1;
-  transition:  opacity 0.4s ease 0.4s;
-}
-
-.menu-wrap .menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  visibility: hidden;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.menu-wrap .menu > div {
-  background: blue;
-  border-radius: 50%;
-  width: 200vw;
-  height: 200vw;
-  display: flex;
-  flex: none;
-  align-items: center;
-  justify-content: center;
-  transform: scale(0);
-  transition: all 0.4s ease;
-  
-}
-
-.menu-wrap .menu > div > div {
-  text-align: center;
-  max-width: 90vw;
-  max-height: 100vh;
-  opacity: 0;
-  transition: opacity 0.4s ease;
-}
-
-.menu-wrap .menu > div > div > ul > li {
-  list-style: none;
-  color: #fff;
-  font-size: 1.5rem;
-  padding: 1rem;
-}
-
-.menu-wrap .menu > div > div > ul > li > a {
-  color: inherit;
-  text-decoration: none;
-  transition: color 0.4s ease;
-}
-
-.menu-wrap .menu li a:hover {
-  border-radius: 10px;
-  background-color: #e26a2c;
   padding: 10px;
-  text-shadow: 2px 2px 2px black;
-  box-shadow: 2px 2px 2px black;
 }
 
+.nav-link:hover{
+  color: #0077b5;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #0077b5;
+}
+
+.nav-logo {
+  font-size: 2.1rem;
+  font-weight: bold;
+  color: white;
+}
+
+/*---Adding the media Queries---*/
+@media only screen and (max-width: 1095px) {
+  .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 5rem;
+      flex-direction: column;
+      background-color: blue;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow:
+          0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+      left: 0;
+  }
+
+  .nav-item {
+      margin: 2.5rem 0;
+  }
+
+  .hamburger {
+      display: block;
+      cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+}
 /*Banner-Section*/
 .banner {
     display: flex;
@@ -193,7 +132,7 @@ header {
   .banner-text {
     /* border: 1px solid blue; */
     margin: 10px;
-    padding: 25px;
+    padding: 10px;
     line-height: 40px;
     color: white;
     justify-content: center;
@@ -222,13 +161,14 @@ header {
       margin-top: 10px;
       box-shadow: 2px 2px 2px gray;
       border-radius: 15px;
-      background-color: grey;
+      background-color: black;
+      opacity: 0.75;
   }
   
-  .text-1 {
+   .text-1 {
       display:flex;
   }
-  
+   
   .text-1 h3 {
        /* border: 1px solid black;  */
       padding-bottom:5px;
@@ -262,8 +202,16 @@ header {
       background-color: #e26a2c;
   }
   
-  
-  
-  
-  
-  
+/*Banner-Media Query*/
+  @media (max-width: 1095px) {
+    .temp {
+      opacity:1;
+      
+    }
+  }
+
+  @media (max-width: 580px) {
+    .banner-text {
+      width: 100%;
+    }
+  }

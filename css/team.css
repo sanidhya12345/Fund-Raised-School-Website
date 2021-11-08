@@ -7,7 +7,7 @@ section {
   
   section .box-container {
     display: flex;
-    background-color: #ffbf86;
+    background-color:  #2F86A6;
   }
   
   section .about-us {
@@ -20,7 +20,6 @@ section {
   }
   
   section .box-container .box {
-    width: 25%;
     margin: 20px 15px;
     background-color: #cee5d0;
     padding: 15px;
@@ -52,13 +51,20 @@ section {
     margin: 0 auto;
     text-align: center;
     color: #fff;
-    background-color: #ff8243;
+    background-color: #2F86A6;
     text-decoration: none;
     padding: 10px;
     border-radius: 8px;
   }
   
   section .box-container .box a:hover {
-    background-color: #e26a2c;
+    background-color: #32C1CD;
   }
   
+
+  /*section-media query*/
+  @media (max-width: 800px) {
+    section .box-container {
+      flex-direction: column;
+    }
+  }
