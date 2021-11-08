@@ -15,7 +15,7 @@
         margin: 10px;
         position: relative;
         border-radius: 10px;
-        height: 35vh;
+        height: 42vh;
         border: 2px solid rgb(163, 160, 160);
         box-shadow: rgb(163, 160, 160) 5px 5px 5px;
       }
@@ -35,8 +35,8 @@
       }
 
       img {
-        height: 250px;
-        width: 250px;
+        height: 95%;
+        width: 17%;
         position: absolute;
         left: 0.3%;
         margin: 1px auto;
@@ -75,6 +75,143 @@
         font-weight: bold;
         text-align: center;
         color: aliceblue;
+      }
+
+      @media (max-width: 900px) {
+        .flex-row {
+          display: flex;
+          flex-flow: row;
+          align-items: center;
+          background-color: rgb(231, 216, 216);
+          margin: 10px;
+          position: relative;
+          border-radius: 10px;
+          height: 50vh;
+          border: 2px solid rgb(163, 160, 160);
+          box-shadow: rgb(163, 160, 160) 5px 5px 5px;
+        }
+        .flex-column {
+          display: flex;
+          flex-flow: column;
+          text-align: left;
+          position: absolute;
+          left: 26.5%;
+          top: 4.5%;
+          margin: 5px;
+        }
+
+        img {
+          height: 75%;
+          width: 25%;
+          position: absolute;
+          left: 0.3%;
+          margin: 1px auto;
+          border-radius: 10px;
+          border: 2px solid white;
+        }
+
+        .title {
+          font-size: large;
+          font-weight: bolder;
+          color: azure;
+        }
+
+        .address {
+          font-size: 16px;
+          font-weight: bold;
+          color: aqua;
+        }
+
+        .detail {
+          font-size: 16px;
+          font-weight: bolder;
+          color: tomato;
+          margin-top: 1.5%;
+        }
+
+        .summary {
+          padding: 1%;
+          height: 15 vh;
+          border-radius: 15px;
+          font-size: 14px;
+        }
+
+        h1 {
+          font-family: "Lato", sans-sarief;
+          font-size: 50px;
+          font-weight: bold;
+          text-align: center;
+          color: aliceblue;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .flex-row {
+          display: flex;
+          flex-flow: row;
+          align-items: center;
+          background-color: rgb(231, 216, 216);
+          margin: 10px;
+          position: relative;
+          border-radius: 10px;
+          height: 50vh;
+          border: 2px solid rgb(163, 160, 160);
+          box-shadow: rgb(163, 160, 160) 5px 5px 5px;
+        }
+        .flex-column {
+          display: flex;
+          flex-flow: column;
+          text-align: left;
+          position: absolute;
+          left: 26.5%;
+          top: 4.5%;
+          margin: 5px;
+        }
+
+        img {
+          height: 45%;
+          width: 25%;
+          position: absolute;
+          left: 0.3%;
+          top: 0.3%;
+          margin: 1px auto;
+          border-radius: 10px;
+          border: 2px solid white;
+        }
+
+        .title {
+          font-size: xx-large;
+          font-weight: bolder;
+          color: azure;
+        }
+
+        .address {
+          font-size: 18px;
+          font-weight: bold;
+          color: aqua;
+        }
+
+        .detail {
+          font-size: 16px;
+          font-weight: bolder;
+          color: tomato;
+          margin-top: 1.5%;
+        }
+
+        .summary {
+          padding: 1%;
+          height: 15 vh;
+          border-radius: 15px;
+          font-size: 14px;
+        }
+
+        h1 {
+          font-family: "Lato", sans-sarief;
+          font-size: 50px;
+          font-weight: bold;
+          text-align: center;
+          color: aliceblue;
+        }
       }
     </style>
   </head>
